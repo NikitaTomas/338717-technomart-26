@@ -7,13 +7,15 @@
   <body>
 <header>
   <h1>Техномарт</h1>
-    <form>
-      <input type="Поиск" placeholder="">
+  <div class="search-box">
+    <form action="#">
+      <input type="text" placeholder="Поиск.." name="search">
     </form>
+  </div>
 <ul>
-  <li><a href="">Закладки</a></li>
-  <li><a href="">Корзина</a></li>
-  <li><a href="">Оформить заказ</a></li>
+  <li><a href="#">Закладки</a></li>
+  <li><a href="#">Корзина</a></li>
+  <li><a href="#">Оформить заказ</a></li>
 </ul>
 </header>
   <main>
@@ -26,8 +28,8 @@
      </p>
       <div>
         <ul>
-        <a href="">
-         <img src="hot-line.html" alt="горячая линия">
+        <a href="#">
+         <img src="img/+7 (812)%20555-05-55.png" alt="горячая линия">
         </a>
         <p>
         г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
@@ -54,7 +56,7 @@
       <h3>Каталог</h3>
       <ul>
       <li>
-        <img src="" alt="Дрели соседям на радость!" width="350" height="250">
+        <img src="img/Layer 99.jpg" alt="Дрели соседям на радость!" >
         <button type="button">Открыть каталог</button>
       </li>
       <li>
@@ -167,18 +169,18 @@
       <h3>Список производителей</h3>
       <ul>
         <li>
-          <a href="">
-            <img src="" alt="BOSCH">
+          <a href="index.html">
+            <img src="img/bosch1.jpg" width="126" height="37" alt="BOSCH">
           </a>
         </li>
         <li>
           <a href="">
-            <img src="" alt="Makita">
+            <img src="img/makita.jpg" alt="Makita">
           </a>
         </li>
         <li>
           <a href="">
-            <img src="" alt="DeWALT">
+            <img src="img/dewalt.jpg" alt="DeWALT">
           </a>
         </li>
         <li>
@@ -257,7 +259,7 @@
         Вы можете забрать товар сами,<br>
         заехав в наш офис:
       </p>
-        <map></map>
+        <img src="img/map.jpg">
         <button type="submit">Заблюдились? Напишите нам!</button>
       </div>
     </section>
@@ -314,5 +316,35 @@
       </div>
     </section>
   </footer>
+  <section>
+    <h2>Обратная связь</h2>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label class="visually-hidden" for="user-name">Ваше имя</label>
+        <input  id="user-name" class="user-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-mail">Ваш e-mail:</label>
+        <input  id="user-mail" class="user-mail" type="email" name="e-mail" placeholder="email@exemple.com">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-text">Текс письма:</label>
+        <input  id="user-text" class="user-text" type="text" name="text-letter" placeholder="В свободной форме">
+      </p>
+    </form>
+    <button type="submit">
+      Отправить
+    </button>
+    <button class="mobal-close" type="button">
+      Закрыть
+    </button>
+  </section>
+  <section>
+    <h2 class="visually-hidden">Карта</h2>
+    <p>
+      <img src="img/map.jpg" width="786" height="548" alt="Офис компании по адресу г.Санкт-Петербург, б.Конюшенная, д. 19/8">
+    </p>
+    <button type="button">закрыть</button>
+  </section>
   </body>
 </html>
