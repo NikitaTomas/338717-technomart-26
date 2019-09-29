@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-size: 13px;
   line-height: 24px;
-  font-family: "PT Sans","Cuprum", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   background-color: #ffffff;
 }
 .flex-container{
@@ -30,9 +30,8 @@ body {
   border: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+
+
 }
 
 a {
@@ -40,12 +39,25 @@ a {
 }
 /*header*/
 
-header{
+.section-1{
+  margin: auto;
   background-color: #293449;
-  width: 100%;
+  width: 1200px;
   height: 42px;
 }
 
+.section-2{
+  margin: auto;
+  width: 1200px;
+  height: 320px;
+  background-color: #f4f7f9;
+}
+
+.main{
+  margin: auto;
+  width: 1200px;
+  background-color: #ffffff;
+}
 
 header ul{
   margin: auto;
@@ -106,9 +118,6 @@ header ul li{
   background-color: #f4f7f9;
 }
 
-
-
-
 .s-nv {
   box-shadow: inset 0px -5px 0 0 #293449;
   background-color: #32425c;
@@ -132,13 +141,39 @@ header ul li{
 
 /* footer */
 .service-back {
+  margin: auto;
+  width: 1200px;
+  height: 522px;
   background-color: #f4f7f9;
 }
 
-.footer1{
+.service-back-2 {
+  margin: auto;
+  width: 1200px;
+  height: 261px;
+  background-color: #f4f7f9;
+}
+
+.footer-1{
+  margin: auto;
+  width: 1200px;
+  height: 300px;
   background-color: #32425c;
 }
 
+.footer-2{
+  margin: auto;
+  width: 1200px;
+  height: 107px;
+  background-color: #293449;
+}
 
+.section-3{
+  margin: auto;
+  width: 940px;
+  height: 60px;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
+}
 
 

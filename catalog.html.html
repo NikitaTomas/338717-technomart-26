@@ -3,49 +3,79 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 <header>
-    <form>
-      <input type="Поиск" placeholder="">
-    </form>
-  <nav>
-    <p>Техномарт</p>>
-<ul>
-  <li><a href="bookmarks.html">закладки</a></li>
-  <li><a href="basket.html">Корзина</a></li>
-  <li><a href="order.html">Оформить заказ</a></li>
-</ul>
-  </nav>
-</header>
-  <main>
+  <section class="section-1">
+    <ul>
+      <li>
+        <div class="logo">
+          <p>Техномарт</p>
+        </div>
+      </li>
+      <li>
+        <form action="#">
+          <input type="text" placeholder="Поиск.." name="search">
+        </form>
+      </li>
+      <li><a href="#">Закладки</a></li>
+      <li><a href="#">Корзина</a></li>
+      <li><a href="#">Оформить заказ</a></li>
+    </ul>
+  </section>
+  <div class="section-2">
     <section>
-     <h1>Техномарт</h1>
-     <p>
-      Интернет-магазин<br>
-      строительных материалов<br>
-      и инструментов для дома
-     </p>
-      <div>
+      <h2 class="visually-hidden">Окно регистрации</h2>
+      <p>
+        Интернет-магазин<br>
+        строительных материалов<br>
+        и инструментов для дома
+      </p>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="img/+7 (812)%20555-05-55.png" width="270" height="45" alt="горячая линия">
+          </a>
+        </li>
+        <li>
+          г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
+        </li>
+        <li>
+          <a href="#">Войти</a>
+          <a href="#">Регистрация</a>
+        </li>
+      </ul>
+    </section>
+    <section class="section-3">
+      <nav>
+        <h2 class="visually-hidden">Навигация</h2>
         <ul>
-        <a href="#">
-         <img src="hot-line.html" alt="горячая линия">
-        </a>
-        <p>
-        г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
-       </p>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="comments.html">Компания</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="specification.html">Спецпредложения</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
         </ul>
-     </div>
+      </nav>
+    </section>
       <fieldset>
         <label>Имя<input type="" required></label>
       </fieldset>
       <a href="#">Мои заказы</a>
       <a href="#">Личный кабинет</a>
-    </section>
+  </div>
+</header>
+<main>
+  <div class="main">
     <section>
-      <h3>маршрут</h3>
+      <h3 class="visually-hidden">маршрут</h3>
       <ui>
-        <li><img src="" alt="домик"><img src="" alt=">">Каталог<img src="" alt=">">инструмент<img src="" alt=">">перфораторы</li>
+        <li><img src="img/icon-home.svg" alt="домик"><img src="img/icon-right-small.svg" alt="стрелка">Каталог<img src="img/icon-right-small.svg" alt="стрелка">инструмент<img src="img/icon-right-small.svg" alt="стрелка">перфораторы</li>
       </ui>
       <h2>Перфораторы</h2>
     </section>
@@ -58,7 +88,7 @@
       <ul>
         <li>
           <h3>bosch bfg 3000</h3>
-          <img src=""alt="Перфоратор bosch bfg 3000">
+          <img src="img/perforator3000.jpg"alt="Перфоратор bosch bfg 3000">
           <a href="catalog-item.html">
             <p>
               Перфоратор BOSCH<br>
@@ -69,12 +99,12 @@
             <b><s>22500 P.</s></b>
           </p>
           <p>
-            <a href="">15500 P.</a>
+            <a href="#">15500 P.</a>
           </p>
         </li>
         <li>
           <h3>bosch bfg 3000</h3>
-          <img src=""alt="Перфоратор bosch bfg 3000">
+          <img src="img/perforator3000.jpg"alt="Перфоратор bosch bfg 3000">
           <a href="catalog-item.html">
             <p>
               Перфоратор BOSCH<br>
@@ -85,12 +115,12 @@
             <b><s>22500 P.</s></b>
           </p>
           <p>
-            <a href="">15500 P.</a>
+            <a href="#">15500 P.</a>
           </p>
         </li>
         <li>
           <h3>bosch bfg 3000</h3>
-          <img src=""alt="Перфоратор bosch bfg 3000 NEW">
+          <img src="img/perforator3000.jpg"alt="Перфоратор bosch bfg 3000 NEW">
           <a href="catalog-item.html">
             <p>
               Перфоратор BOSCH<br>
@@ -101,12 +131,12 @@
             <b><s>22500 P.</s></b>
           </p>
           <p>
-            <a href="">15500 P.</a>
+            <a href="#">15500 P.</a>
           </p>
         </li>
         <li>
           <h3>bosch bfg 6000</h3>
-          <img src=""alt="Перфоратор bosch bfg 6000">
+          <img src="img/perforator6000.jpg"alt="Перфоратор bosch bfg 6000">
           <a href="catalog-item.html">
             <p>
               Перфоратор BOSCH<br>
@@ -117,12 +147,12 @@
             <b><s>30500 P.</s></b>
           </p>
           <p>
-            <a href="">25500 P.</a>
+            <a href="#">25500 P.</a>
           </p>
         </li>
         <li>
           <h3>bosch bfg 6000</h3>
-          <img src=""alt="Перфоратор bosch bfg 6000 NEW">
+          <img src="img/perforator6000.jpg"alt="Перфоратор bosch bfg 6000 NEW">
           <a href="catalog-item.html">
             <p>
               Перфоратор BOSCH<br>
@@ -133,12 +163,12 @@
             <b><s>30500 P.</s></b>
           </p>
           <p>
-            <a href="">25500 P.</a>
+            <a href="#">25500 P.</a>
           </p>
         </li>
         <li>
           <h3>bosch bfg 6000</h3>
-          <img src=""alt="Перфоратор bosch bfg 6000">
+          <img src="img/perforator6000.jpg"alt="Перфоратор bosch bfg 6000">
           <a href="catalog-item.html">
             <p>
               Перфоратор BOSCH<br>
@@ -149,14 +179,14 @@
             <b><s>30500 P.</s></b>
           </p>
           <p>
-            <a href="">25500 P.</a>
+            <a href="#">25500 P.</a>
           </p>
         </li>
         <li>
-          <a href="">
+          <a href="#">
             <button>купить</button>
           </a>
-          <a href="">
+          <a href="#">
             <button>в закладки</button>
           </a>
           <h3>bosch bfg 2000 NEW</h3>
@@ -167,12 +197,12 @@
             </p>
           </a>
           <p>
-            <a href="">12500 P.</a>
+            <a href="#">12500 P.</a>
           </p>
         </li>
         <li>
           <h3>bosch bfg 2000</h3>
-          <img src=""alt="Перфоратор bosch bfg 2000">
+          <img src="img/perforator2000.jpg"alt="Перфоратор bosch bfg 2000">
           <a href="catalog-item.html">
             <p>
               Перфоратор BOSCH<br>
@@ -180,12 +210,12 @@
             </p>
           </a>
           <p>
-            <a href="">12500 P.</a>
+            <a href="#">12500 P.</a>
           </p>
         </li>
         <li>
           <h3>bosch bfg 2000</h3>
-          <img src=""alt="Перфоратор bosch bfg 2000">
+          <img src="img/perforator2000.jpg"alt="Перфоратор bosch bfg 2000">
           <a href="catalog-item.html">
             <p>
               Перфоратор BOSCH<br>
@@ -193,7 +223,7 @@
             </p>
           </a>
           <p>
-            <a href="">12500 P.</a>
+            <a href="#">12500 P.</a>
           </p>
         </li>
       </ul>
@@ -250,9 +280,8 @@
         </form>
         <button type="button">Показать</button>
     </section>
-  </main>
-  <footer>
-    <section>
+  </div>
+    <section class="service-back-2">
       <h2>Пара слов о перфораторах</h2>
       <p>
         Перфоратор-универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
@@ -260,6 +289,8 @@
         ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.
       </p>
     </section>
+</main>
+<footer class="footer-1">
 <section>
   <h2>Контакты</h2>
   <ul>
@@ -288,7 +319,7 @@
         <li><a href="Special.html">Спецпредложения</a></li>
       </ul>
     </section>
-    <section>
+    <section class="footer-2">
         <h2>Обратная связь</h2>
         <p>
           2010-2019 Компания "Техномарт"<br>
