@@ -31,23 +31,23 @@
     <div class="section-2">
     <section>
       <h2 class="visually-hidden">Окно регистрации</h2>
-      <p>
-        Интернет-магазин<br>
+      <p class="p-1">
+       <em> Интернет-магазин<br>
         строительных материалов<br>
-        и инструментов для дома
+         и инструментов для дома</em>
       </p>
       <ul>
         <li>
-          <a href="#">
-            <img src="img/+7 (812)%20555-05-55.png" width="270" height="45" alt="горячая линия">
+          <a class="number" href="#">
+            +7(812)555-05-55
           </a>
         </li>
         <li>
           г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
         </li>
-        <li>
-          <a href="#">Войти</a>
-          <a href="#">Регистрация</a>
+        <li class="but">
+          <a class="but-1" href="#">Войти</a>
+          <a class="but-2" href="#">Регистрация</a>
         </li>
       </ul>
     </section>
@@ -68,10 +68,10 @@
   </header>
   <main>
     <div class="main">
-    <section>
-      <h3>Каталог</h3>
+    <section class="box">
+      <h3 class="visually-hidden">Каталог</h3>
       <ul>
-      <li>
+      <li class="box-1">
         <img src="img/Layer 99.jpg" alt="Дрели соседям на радость!" >
         <a type="button" href="catalog.html.">Открыть каталог</a>
       </li>
@@ -105,18 +105,18 @@
     </section>
     <section>
       <h2 class="visually-hidden">Популярные товары</h2>
-      <ul>
+      <ul class="popular-back">
         <li>
-          <p>
+          <p class="p-2">
             Популярные товары:
           </p>
         </li>
-        <button type="button">Все популярные товары</button>
+        <button class="popular-button" type="button"><div class="s">Все популярные товары</div></button>
       </ul>
-      <h3>Список перфораторов</h3>
-      <ul>
-        <li>
-          <h3>bosch bfg 9000</h3>
+      <h3 class="visually-hidden" >Список перфораторов</h3>
+      <ul class="flex-container-3">
+        <li class="perf-1">
+          <h3 class="visually-hidden">bosch bfg 9000</h3>
           <img src="img/perforator9000.jpg"alt="Перфоратор bosch bfg 9000">
             <a href="catalog-item.html">
               <p>
@@ -131,8 +131,8 @@
                 <a href="#">25500 P.</a>
               </p>
         </li>
-        <li>
-          <h3>bosch bfg 3000</h3>
+        <li class="perf-1">
+          <h3 class="visually-hidden">bosch bfg 3000</h3>
           <img src="img/perforator3000.jpg"alt="Перфоратор bosch bfg 3000">
           <a href="catalog-item.html">
             <p>
@@ -147,8 +147,8 @@
             <a href="#">15500 P.</a>
           </p>
         </li>
-        <li>
-          <h3>bosch bfg 6000</h3>
+        <li class="perf-1">
+          <h3 class="visually-hidden">bosch bfg 6000</h3>
           <img src="img/perforator6000.jpg"alt="Перфоратор bosch bfg 6000">
           <a href="catalog-item.html">
             <p>
@@ -163,8 +163,8 @@
             <a href="#">25500 P.</a>
           </p>
         </li>
-        <li>
-          <h3>bosch bfg 2000 "NEW"</h3>
+        <li class="perf-1">
+          <h3 class="visually-hidden">bosch bfg 2000 "NEW"</h3>
           <img src="img/perforator2000.jpg"alt="Перфоратор bosch bfg 2000">
           <a href="catalog-item.html">
             <p>
@@ -179,19 +179,19 @@
       </ul>
     </section>
     <section>
-      <h2>Популярные производители</h2>
-      <ul>
+      <h2 class="visually-hidden">Популярные производители</h2>
+      <ul class="popular-back">
         <li>
-          <p>
+          <p class="p-2">
             Популярные производители:
           </p>
         </li>
-        <button type="button">Все производители</button>
+        <button class="popular-button" type="button"><div class="s">Все производители</div></button>
       </ul>
       <div class="flex-container">
-      <h3>Список производителей</h3>
+      <h3 class="visually-hidden">Список производителей</h3>
       <ul>
-        <li class="column popular-brands-item">
+        <li class=" popular-brands-item">
           <a href="index.html">
             <img src="img/bosch1.jpg" width="126" height="37" alt="BOSCH">
           </a>
@@ -235,6 +235,7 @@
       </div>
     </section>
     </div>
+    <div class="flex-container-2">
     <section class="service-back">
       <h2>Сервисы</h2>
       <ul>
@@ -256,9 +257,11 @@
           </p>
         </li>
       </ul>
-      <img src="img/Layer 131.png"alt="машинка">
+      <img class="avto" src="img/Layer 131.png"alt="машинка">
     </section>
-    <section>
+    </div>
+    <div class="flex-container">
+    <section class="fot-1">
       <ul>
       <h2>Компания "Техномарт"</h2>
       <p>
@@ -277,7 +280,7 @@
       </ul>
       <button type="button">Подробнее о компании</button>
     </section>
-    <section>
+    <section class="fot-2">
       <h2>Контакты</h2>
       <div>
       <p>
@@ -288,6 +291,7 @@
         <button type="submit">Заблюдились? Напишите нам!</button>
       </div>
     </section>
+    </div>
   </section>
   </main>
   <footer class="footer-1">
